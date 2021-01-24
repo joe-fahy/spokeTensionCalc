@@ -1,11 +1,18 @@
 import math
 
-frequency = 440.0
+frequency = input("Please enter the frequency of the spoke: ")
+frequency = float(frequency)
+print(frequency)
+
+
 
 
 
 #f^2 * 4mL = T
+
+#Spoke dia is 2mm or 0.002metres
 spokeDia = 0.002
+
 spokeLen = 0.245
 #Most spokes use 301 stainless steel which has a density of 7930 kg/m^3
 densityOfStainlessSteel = 7930.0
