@@ -7,12 +7,14 @@ frequency = 440.0
 #f^2 * 4mL = T
 spokeDia = 0.002
 spokeLen = 0.245
+#Most spokes use 301 stainless steel which has a density of 7930 kg/m^3
+densityOfStainlessSteel = 7930.0
 print("Frequency of Spoke = {} Hz".format(frequency))
 print("Diameter of Spoke = {} Metres".format(spokeDia))
 print("Length of spoke = {} Metres".format(spokeLen))
 volOfSpoke = spokeLen * ((spokeDia/2)**2) * math.pi
 print("Volume Of Spoke = {} Metres Cubed".format(volOfSpoke))
-massSpoke = volOfSpoke * 7480.0
+massSpoke = volOfSpoke * densityOfStainlessSteel
 print("Mass of Spoke = {} Kilograms".format(massSpoke))
 #massOfSpoke = (math.pi * (0.02**2) * 0.26)
 #print(massOfSpoke)
