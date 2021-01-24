@@ -22,6 +22,9 @@ print("Mass of Spoke = {} Kilograms".format(massSpoke))
 
 newTensionNewtons = (frequency**2) * (4 * massSpoke * spokeLen)
 
+tensionKgf = newTensionNewtons / 9.807
+
 #print("New tension in newtons =  {}".format(newTensionNewons))
 
 print("Tension = {} Newtons".format(newTensionNewtons))
+print("Tension in kgf = {} kgf".format(tensionKgf))
