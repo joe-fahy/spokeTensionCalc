@@ -1,0 +1,30 @@
+f = (1/Ld)*√(T/πδ)
+
+where
+
+    f is the frequency in hertz (Hz) or cycles per second
+    L is the length of the wire in centimeters (cm)
+    d is the diameter of the wire in cm
+    T is the tension on the wire in gm-cm/s²
+    π is the Greek letter pi = 3.14
+    δ is the density of the wire in gm/cm³ (Greek letter small delta)
+    √(T/πδ) is the square root of T divided by πδ
+
+the density of steel wire is 7.8 gm/cm³.
+
+f / (1/Ld) = sqrt(T/πδ)
+
+(f / (1/Ld))^2 = T/πδ
+
+((f / (1/Ld))^2) * πδ = T
+
+Solve for tension
+
+You can rearrange the equation to solve for the tension:
+
+    T = πf²L²d²δ
+
+Thus, if you know the other factors, you can find the tension on the wire.
+
+T = pi * f^2 * L^2 * d^2 * density
+
