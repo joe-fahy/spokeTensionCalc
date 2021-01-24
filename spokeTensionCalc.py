@@ -1,11 +1,10 @@
 import math
 
-frequency = input("Please enter the frequency of the spoke: ")
+frequency = input("Please enter the frequency of the spoke in Hz: ")
 frequency = float(frequency)
-print(frequency)
 
-
-
+spokeLen = input("Please enter the length of the spoke in metres: ")
+spokeLen = float(spokeLen)
 
 
 #f^2 * 4mL = T
@@ -13,7 +12,7 @@ print(frequency)
 #Spoke dia is 2mm or 0.002metres
 spokeDia = 0.002
 
-spokeLen = 0.245
+#spokeLen = 0.245
 #Most spokes use 301 stainless steel which has a density of 7930 kg/m^3
 densityOfStainlessSteel = 7930.0
 print("Frequency of Spoke = {} Hz".format(frequency))
